@@ -161,6 +161,7 @@ function partialUsingArguments(/* fn, ...args1 */) {
  *   getId4() => 7
  *   getId10() => 11
  */
+// prettier-ignore
 function getIdGeneratorFunction(startFrom) {
   let countId = startFrom - 1;
   return () => {
